@@ -1,0 +1,31 @@
+/* imported fonts yellowtail for the header */
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Anton|Fjalla+One|Permanent+Marker|Yellowtail&display=swap');
+
+/* Header work */
+body {
+    width: 901px;
+    margin: auto;
+}
+header{
+    height: 100px;
+    font-family: yellowtail;
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 0px;
+}
+header img {
+    float: left;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+#blog {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 12px;
+    color: gray;
+    margin-top: 0px;
+}
+nav {
+    align-items: baseline;
+    float: right;   
+    margin-top: 15px;
+}
