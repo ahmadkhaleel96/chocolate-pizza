@@ -1,5 +1,5 @@
 /* imported fonts yellowtail for the header */
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Anton|Fjalla+One|Permanent+Marker|Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Anton|Fjalla+One|Gloria+Hallelujah|Noto+Sans+KR|Oswald|Patrick+Hand|Permanent+Marker|Yellowtail&display=swap');
 
 /* Header work */
 body {
@@ -7,7 +7,7 @@ body {
     margin: auto;
 }
 header{
-    height: 100px;
+    height: 75px;
     font-family: yellowtail;
     padding-top: 20px;
     font-size: 25px;
@@ -27,5 +27,62 @@ header img {
 nav {
     align-items: baseline;
     float: right;   
-    margin-top: 15px;
+    margin-top: 5px;
 }
+section {
+    background-image: url(img/hr-img.png);
+    background-repeat: repeat;
+    margin-bottom: 25px;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0px;
+}
+h4{
+    color: gray;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    line-height: 0px;
+}
+#print{
+    float: right;
+    color: gray;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+}
+p img {
+    margin: 25px 0px 25px 0px;
+}
+#text{
+    font-size: 20px;
+    color:rgb(71, 71, 71);
+}
+div{
+    background-image: url(img/list-bg.png);
+}
+#firstlist{
+    float: left;
+    list-style: circle;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 30px;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(105, 105, 105);
+}
+#secondlist{
+    float: right;
+    list-style: circle;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 30px;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(105, 105, 105);
+}
+#linethrough{
+    text-decoration-line: line-through;
+}
+
